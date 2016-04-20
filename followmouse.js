@@ -1,7 +1,7 @@
 (function($){
     $.fn.followMouse=function(){
         $(this).css({
-            position:"fixed",
+            position:"absolute",
             left:event.pageX+10,
             top:event.pageY+10,
         })
