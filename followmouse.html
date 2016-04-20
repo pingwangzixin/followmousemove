@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p{width:100px;height:100px;background:#798;border-radius:50%;color:#fff;line-height:100px;text-align:center;}
+    </style>
+    <script src="http://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+    <script src="./followmouse.js"></script>
+    <script>
+        $(function(){
+            $(document).mousemove(function(){
+                $("p").followMouse()
+            })
+        })
+    </script>
+</head>
+<body>
+    <p>跟随鼠标</p>
+</body>
+</html>
