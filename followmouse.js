@@ -1,0 +1,9 @@
+(function($){
+    $.fn.followMouse=function(){
+        $(this).css({
+            position:"fixed",
+            left:event.pageX+10,
+            top:event.pageY+10,
+        })
+    }
+})(jQuery);
